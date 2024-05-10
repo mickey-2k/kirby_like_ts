@@ -3,7 +3,7 @@ import { k } from "./kaboomCtx";
 async function gameSetup() {
     k.loadSprite("assets", "./kirby-like.png", {
         sliceX: 9,
-        sliceY: 10,
+        sliceY: 10, 
         anims: {
             kirbIdle: 0,
             kirbInhaling: 1,
